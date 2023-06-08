@@ -1,6 +1,5 @@
-from swap import swap_numbers
+from extras.desc import print_descending
 
 if __name__ == "__main__":
-    a = int(input("Enter the first number (0-3): "))
-    b = int(input("Enter the second number (0-3): "))
-    swap_numbers(a, b)
+    number = int(input("Enter a number: "))
+    print_descending(number)
